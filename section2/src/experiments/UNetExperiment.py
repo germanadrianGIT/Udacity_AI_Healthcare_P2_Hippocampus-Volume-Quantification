@@ -53,7 +53,7 @@ class UNetExperiment:
         self.train_loader = None
         self.val_loader = None
 
-        if split.get("train"):
+        if "train" in split and len(split["train"]) > 0:
             self.train_loader = DataLoader(
                 SlicesDataset(dataset[split["train"]]),
                 batch_size=config.batch_size,
@@ -61,7 +61,7 @@ class UNetExperiment:
                 num_workers=0
             )
 
-        if split.get("val"):
+        if "val" in split and len(split["val"]) > 0:
             self.val_loader = DataLoader(
                 SlicesDataset(dataset[split["val"]]),
                 batch_size=config.batch_size,
