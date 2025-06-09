@@ -1,0 +1,22 @@
+
+name: medai
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-image
+  - ipykernel
+  - jupyter
+  - notebook
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboard
+  - pip:
+      - nibabel
+      - pydicom

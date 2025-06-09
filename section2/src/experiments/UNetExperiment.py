@@ -49,10 +49,26 @@ class UNetExperiment:
         # TASK: SlicesDataset class is not complete. Go to the file and complete it. 
         # Note that we are using a 2D version of UNet here, which means that it will expect
         # batches of 2D slices.
-        self.train_loader = DataLoader(SlicesDataset(dataset[split["train"]]),
-                batch_size=config.batch_size, shuffle=True, num_workers=0)
-        self.val_loader = DataLoader(SlicesDataset(dataset[split["val"]]),
-                batch_size=config.batch_size, shuffle=True, num_workers=0)
+
+        self.train_loader = None
+        self.val_loader = None
+
+        if split.get("train"):
+            self.train_loader = DataLoader(
+                SlicesDataset(dataset[split["train"]]),
+                batch_size=config.batch_size,
+                shuffle=True,
+                num_workers=0
+            )
+
+        if split.get("val"):
+            self.val_loader = DataLoader(
+                SlicesDataset(dataset[split["val"]]),
+                batch_size=config.batch_size,
+                shuffle=True,
+                num_workers=0
+            )
+
 
         # we will access volumes directly for testing
         self.test_data = dataset[split["test"]]

@@ -1,0 +1,2 @@
+# Ignore large trained model files
+section2/results/*/model.pth
