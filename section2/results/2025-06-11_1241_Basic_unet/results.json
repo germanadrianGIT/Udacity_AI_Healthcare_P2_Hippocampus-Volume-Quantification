@@ -1,0 +1,201 @@
+{
+  "volume_stats": [
+    {
+      "filename": "hippocampus_217.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_222.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_225.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_236.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_242.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_251.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_257.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_274.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_277.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_288.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_302.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_305.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_317.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_332.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_335.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_343.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_345.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_349.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_352.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_355.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_358.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_360.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_373.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_378.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_383.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "filename": "hippocampus_394.nii.gz",
+      "dice": 1.0,
+      "jaccard": 1.0,
+      "sensitivity": 1.0,
+      "specificity": 1.0
+    }
+  ],
+  "overall": {
+    "mean_dice": 1.0,
+    "mean_jaccard": 1.0,
+    "mean_sensitivity": 1.0,
+    "mean_specificity": 1.0
+  },
+  "config": {
+    "name": "Basic_unet",
+    "root_dir": "../out/",
+    "n_epochs": 1,
+    "learning_rate": 2e-05,
+    "batch_size": 8,
+    "patch_size": 64,
+    "test_results_dir": "../results"
+  }
+}

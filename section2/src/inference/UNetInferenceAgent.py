@@ -50,6 +50,15 @@ class UNetInferenceAgent:
         Returns:
             3D NumPy array with prediction mask
         """
+        if volume is None:
+            raise ValueError("Volume is None!")
+
+        if not isinstance(volume, np.ndarray):
+            raise TypeError(f"Expected np.ndarray but got {type(volume)}")
+
+        if volume.ndim != 3:
+            raise ValueError(f"Expected 3D volume with shape (X,Y,Z), but got shape {volume.shape}")
+
         self.model.eval()
         
         # Assuming volume is a numpy array of shape [X,Y,Z] and we need to slice X axis

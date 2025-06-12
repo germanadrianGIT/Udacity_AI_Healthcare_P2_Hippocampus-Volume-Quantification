@@ -288,6 +288,7 @@ class UNetExperiment:
         # for every in test set
         for i, x in enumerate(self.test_data):
             pred_label = inference_agent.single_volume_inference(x["image"])
+            print(f"[TEST] pred_label type: {type(pred_label)}, shape: {getattr(pred_label, 'shape', None)}")
 
             # We compute and report Dice and Jaccard similarity coefficients which 
             # assess how close our volumes are to each other
@@ -298,6 +299,8 @@ class UNetExperiment:
             # on Wikipedia. If you completed it
             # correctly (and if you picked your train/val/test split right ;)),
             # your average Jaccard on your test set should be around 0.80
+
+            print(f"🛠 Test Sample {i}: pred_label={type(pred_label)}, x['seg']={type(x['seg'])}")
 
             dc = Dice3d(pred_label, x["seg"])
             jc = Jaccard3d(pred_label, x["seg"])

@@ -62,6 +62,10 @@ if __name__ == "__main__":
     # Set up and run experiment
     
     # TASK: Class UNetExperiment has missing pieces. Go to the file and fill them in
+    print("SPLIT STRUCTURE:")
+    for k, v in split.items():
+        print(f"{k}: type={type(v)}, len={len(v)}")
+
     exp = UNetExperiment(c, split, data)
 
     # You could free up memory by deleting the dataset
@@ -80,4 +84,3 @@ if __name__ == "__main__":
 
     with open(os.path.join(exp.out_dir, "results.json"), 'w') as out_file:
         json.dump(results_json, out_file, indent=2, separators=(',', ': '))
-
