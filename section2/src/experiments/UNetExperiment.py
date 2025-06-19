@@ -220,6 +220,13 @@ class UNetExperiment:
             
                 print(f"Batch {i}. Data shape {data.shape} Loss {loss}")
 
+                # After computing loss
+                print(f"Batch {i} Loss {loss}")
+
+                # Inspect label and prediction values
+                print(f"target unique values: {np.unique(target.cpu().numpy())}")
+                print(f"prediction softmax sample: {prediction_softmax[0, :, 32, 32].cpu().detach().numpy()}")
+
                 # We report loss that is accumulated across all of validation set
                 loss_list.append(loss.item())
 

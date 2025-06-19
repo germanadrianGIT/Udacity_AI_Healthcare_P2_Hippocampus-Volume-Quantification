@@ -61,4 +61,10 @@ def LoadHippocampusData(root_dir, y_shape, z_shape):
 
     # Hippocampus dataset only takes about 300 Mb RAM, so we can afford to keep it all in RAM
     print(f"Processed {len(out)} files, total {sum([x['image'].shape[0] for x in out])} slices")
+    
+    # ✅ Sanity check on values (img max > 0, lbl sum > 0)
+    for sample in out:
+        img, lbl = sample["image"], sample["seg"]
+        print(f"✅ {sample['filename']}: img max={np.max(img):.4f}, lbl sum={np.sum(lbl)}")
+        
     return np.array(out)
