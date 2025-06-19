@@ -17,7 +17,8 @@ class Config:
         # self.n_epochs = 15
         self.n_epochs = 1
         self.learning_rate = 0.00002
-        self.batch_size = 8
+        # self.batch_size = 8
+        self.batch_size = 2
         self.patch_size = 64
         self.test_results_dir = "../results"
 
