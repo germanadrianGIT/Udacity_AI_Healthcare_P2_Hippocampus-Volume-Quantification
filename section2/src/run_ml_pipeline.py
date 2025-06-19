@@ -50,10 +50,18 @@ if __name__ == "__main__":
     # the array with indices of training volumes to be used for training, validation 
     # and testing respectively.
     # <YOUR CODE GOES HERE>
-    train=np.random.choice(keys,size=int(0.8*len(data)),replace=False)
+    
+    # Randomly select 80% of the dataset indices for training
+    train = np.random.choice(keys, size=int(0.8 * len(data)), replace=False)
+
+    # Assign the remaining 20% of the indices to testing/validation candidates
     test = [i for i in keys if i not in train]
-    val = test[:len(test)//2] 
-    test = test[(len(test)//2):]
+
+    # Split the remaining 20% in half for validation
+    val = test[:len(test) // 2]
+
+    # And use the other half as the final test set
+    test = test[(len(test) // 2):]
     
     split["train"] = train
     split["val"] =val

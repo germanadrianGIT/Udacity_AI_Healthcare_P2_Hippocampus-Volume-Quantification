@@ -1,0 +1,427 @@
+(medai) root@85308d459df9725d6ae1cfd5cbadd4e98c4702dc-5c497d7d8-hhm4x:/home/workspace# cd src
+(medai) root@85308d459df9725d6ae1cfd5cbadd4e98c4702dc-5c497d7d8-hhm4x:/home/workspace/src# python run_ml_pipeline.pyLoading data...
+Processed 260 files, total 9198 slices
+Number of files in train, validation and test set are :   208 26 26
+SPLIT STRUCTURE:
+train: type=<class 'numpy.ndarray'>, len=208
+val: type=<class 'list'>, len=26
+test: type=<class 'list'>, len=26
+Experiment started.
+Training epoch 0...
+/opt/conda/conda-bld/pytorch_1587428094786/work/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+
+Epoch: 0 Train loss: 1.0156346559524536, 0.1% complete
+..........
+Epoch: 0 Train loss: 1.01008939743042, 1.2% complete
+..........
+Epoch: 0 Train loss: 1.0042325258255005, 2.3% complete
+..........
+Epoch: 0 Train loss: 0.9975730180740356, 3.4% complete
+..........
+Epoch: 0 Train loss: 0.9890851378440857, 4.5% complete
+..........
+Epoch: 0 Train loss: 0.9768165349960327, 5.5% complete
+..........
+Epoch: 0 Train loss: 0.9535771608352661, 6.6% complete
+..........
+Epoch: 0 Train loss: 0.8707718849182129, 7.7% complete
+..........
+Epoch: 0 Train loss: 0.4798791706562042, 8.8% complete
+..........
+Epoch: 0 Train loss: 0.04810222610831261, 9.9% complete
+..........
+Epoch: 0 Train loss: 0.007143158465623856, 11.0% complete
+..........
+Epoch: 0 Train loss: 0.0025644449051469564, 12.1% complete
+..........
+Epoch: 0 Train loss: 0.0016230398323386908, 13.1% complete
+..........
+Epoch: 0 Train loss: 0.001307683764025569, 14.2% complete
+..........
+Epoch: 0 Train loss: 0.0011587293120101094, 15.3% complete
+..........
+Epoch: 0 Train loss: 0.0010653602657839656, 16.4% complete
+..........
+Epoch: 0 Train loss: 0.0009930600645020604, 17.5% complete
+..........
+Epoch: 0 Train loss: 0.0009303482947871089, 18.6% complete
+..........
+Epoch: 0 Train loss: 0.0008729981491342187, 19.7% complete
+..........
+Epoch: 0 Train loss: 0.0008193724206648767, 20.7% complete
+..........
+Epoch: 0 Train loss: 0.0007687479956075549, 21.8% complete
+..........
+Epoch: 0 Train loss: 0.0007208198658190668, 22.9% complete
+..........
+Epoch: 0 Train loss: 0.0006752986810170114, 24.0% complete
+..........
+Epoch: 0 Train loss: 0.0006321445689536631, 25.1% complete
+..........
+Epoch: 0 Train loss: 0.0005910344771109521, 26.2% complete
+..........
+Epoch: 0 Train loss: 0.000551682198420167, 27.3% complete
+..........
+Epoch: 0 Train loss: 0.0005142213776707649, 28.3% complete
+..........
+Epoch: 0 Train loss: 0.00047831053961999714, 29.4% complete
+..........
+Epoch: 0 Train loss: 0.0004440690972842276, 30.5% complete
+..........
+Epoch: 0 Train loss: 0.00041177193634212017, 31.6% complete
+..........
+Epoch: 0 Train loss: 0.0003814701922237873, 32.7% complete
+..........
+Epoch: 0 Train loss: 0.0003531430847942829, 33.8% complete
+..........
+Epoch: 0 Train loss: 0.0003267170104663819, 34.9% complete
+..........
+Epoch: 0 Train loss: 0.00030217564199119806, 35.9% complete
+..........
+Epoch: 0 Train loss: 0.0002793871390167624, 37.0% complete
+..........
+Epoch: 0 Train loss: 0.00025811870000325143, 38.1% complete
+..........
+Epoch: 0 Train loss: 0.00023847472039051354, 39.2% complete
+..........
+Epoch: 0 Train loss: 0.00022039155010133982, 40.3% complete
+..........
+Epoch: 0 Train loss: 0.0002038150414591655, 41.4% complete
+..........
+Epoch: 0 Train loss: 0.00018857826944440603, 42.5% complete
+..........
+Epoch: 0 Train loss: 0.00017459248192608356, 43.5% complete
+..........
+Epoch: 0 Train loss: 0.00016176643839571625, 44.6% complete
+..........
+Epoch: 0 Train loss: 0.00014999751874711365, 45.7% complete
+..........
+Epoch: 0 Train loss: 0.00013921293430030346, 46.8% complete
+..........
+Epoch: 0 Train loss: 0.00012937129940837622, 47.9% complete
+..........
+Epoch: 0 Train loss: 0.00012036389671266079, 49.0% complete
+..........
+Epoch: 0 Train loss: 0.00011209107469767332, 50.1% complete
+..........
+Epoch: 0 Train loss: 0.00010448705870658159, 51.1% complete
+..........
+Epoch: 0 Train loss: 9.749369928613305e-05, 52.2% complete
+..........
+Epoch: 0 Train loss: 9.106699144467711e-05, 53.3% complete
+..........
+Epoch: 0 Train loss: 8.514674846082926e-05, 54.4% complete
+..........
+Epoch: 0 Train loss: 7.968966383486986e-05, 55.5% complete
+..........
+Epoch: 0 Train loss: 7.46558653190732e-05, 56.6% complete
+..........
+Epoch: 0 Train loss: 6.999581819400191e-05, 57.7% complete
+..........
+Epoch: 0 Train loss: 6.567343370988965e-05, 58.7% complete
+..........
+Epoch: 0 Train loss: 6.16704928688705e-05, 59.8% complete
+..........
+Epoch: 0 Train loss: 5.7943048886954784e-05, 60.9% complete
+..........
+Epoch: 0 Train loss: 5.4473523050546646e-05, 62.0% complete
+..........
+Epoch: 0 Train loss: 5.121406866237521e-05, 63.1% complete
+..........
+Epoch: 0 Train loss: 4.8177666030824184e-05, 64.2% complete
+..........
+Epoch: 0 Train loss: 4.5354419853538275e-05, 65.3% complete
+..........
+Epoch: 0 Train loss: 4.2728264816105366e-05, 66.3% complete
+..........
+Epoch: 0 Train loss: 4.028528928756714e-05, 67.4% complete
+..........
+Epoch: 0 Train loss: 3.8011756259948015e-05, 68.5% complete
+..........
+Epoch: 0 Train loss: 3.5893404856324196e-05, 69.6% complete
+..........
+Epoch: 0 Train loss: 3.3917895052582026e-05, 70.7% complete
+..........
+Epoch: 0 Train loss: 3.2076321076601744e-05, 71.8% complete
+..........
+Epoch: 0 Train loss: 3.035692498087883e-05, 72.9% complete
+..........
+Epoch: 0 Train loss: 2.87515576928854e-05, 73.9% complete
+..........
+Epoch: 0 Train loss: 2.725131344050169e-05, 75.0% complete
+..........
+Epoch: 0 Train loss: 2.584827598184347e-05, 76.1% complete
+..........
+Epoch: 0 Train loss: 2.4539243895560503e-05, 77.2% complete
+..........
+Epoch: 0 Train loss: 2.3323227651417255e-05, 78.3% complete
+..........
+Epoch: 0 Train loss: 2.217205474153161e-05, 79.4% complete
+..........
+Epoch: 0 Train loss: 2.108205808326602e-05, 80.5% complete
+..........
+Epoch: 0 Train loss: 2.00571957975626e-05, 81.5% complete
+..........
+Epoch: 0 Train loss: 1.9094848539680243e-05, 82.6% complete
+..........
+Epoch: 0 Train loss: 1.8190185073763132e-05, 83.7% complete
+..........
+Epoch: 0 Train loss: 1.7340295016765594e-05, 84.8% complete
+..........
+Epoch: 0 Train loss: 1.6540754586458206e-05, 85.9% complete
+..........
+Epoch: 0 Train loss: 1.57891190610826e-05, 87.0% complete
+..........
+Epoch: 0 Train loss: 1.5081081073731184e-05, 88.1% complete
+..........
+Epoch: 0 Train loss: 1.4415360055863857e-05, 89.1% complete
+..........
+Epoch: 0 Train loss: 1.3787997886538506e-05, 90.2% complete
+..........
+Epoch: 0 Train loss: 1.319817965850234e-05, 91.3% complete
+..........
+Epoch: 0 Train loss: 1.26391532830894e-05, 92.4% complete
+..........
+Epoch: 0 Train loss: 1.2112723197788e-05, 93.5% complete
+..........
+Epoch: 0 Train loss: 1.1613592505455017e-05, 94.6% complete
+..........
+Epoch: 0 Train loss: 1.1141819413751364e-05, 95.7% complete
+..........
+Epoch: 0 Train loss: 1.0694784577935934e-05, 96.7% complete
+..........
+Epoch: 0 Train loss: 1.0271789506077766e-05, 97.8% complete
+..........
+Epoch: 0 Train loss: 9.870389476418495e-06, 98.9% complete
+..........
+Epoch: 0 Train loss: 9.489362128078938e-06, 100.0% complete
+.
+Training complete
+Validating epoch 0...
+Batch 0. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 1. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 2. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 3. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 4. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 5. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 6. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 7. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 8. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 9. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 10. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 11. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 12. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 13. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 14. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 15. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 16. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 17. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 18. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 19. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 20. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 21. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 22. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 23. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 24. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 25. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 26. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 27. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 28. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 29. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 30. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 31. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 32. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 33. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 34. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 35. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 36. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 37. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 38. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 39. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 40. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 41. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 42. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 43. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 44. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 45. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 46. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 47. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 48. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 49. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 50. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 51. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 52. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 53. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 54. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 55. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 56. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 57. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 58. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 59. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 60. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 61. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 62. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 63. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 64. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 65. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 66. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 67. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 68. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 69. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 70. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 71. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 72. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 73. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 74. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 75. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 76. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 77. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 78. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 79. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 80. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 81. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 82. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 83. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 84. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 85. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 86. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 87. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 88. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 89. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 90. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 91. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 92. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 93. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 94. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 95. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 96. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 97. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 98. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 99. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 100. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 101. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 102. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 103. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 104. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 105. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 106. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 107. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 108. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 109. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 110. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 111. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 112. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 113. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Batch 114. Data shape torch.Size([8, 1, 64, 64]) Loss 9.4524584710598e-06
+Validation complete
+Run complete. Total time: 00:02:35
+Testing...
+/workspace/home/src/inference/UNetInferenceAgent.py:76: RuntimeWarning: invalid value encountered in true_divide
+  slicei=torch.from_numpy(slicei.astype(np.single)/np.max(slicei)).unsqueeze(0).unsqueeze(0)
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (42, 64, 64)
+🛠 Test Sample 0: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_015.nii.gz Dice 1.0000. 3.85% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (33, 64, 64)
+🛠 Test Sample 1: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_051.nii.gz Dice 1.0000. 7.69% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 2: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_331.nii.gz Dice 1.0000. 11.54% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 3: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_173.nii.gz Dice 1.0000. 15.38% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (36, 64, 64)
+🛠 Test Sample 4: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_101.nii.gz Dice 1.0000. 19.23% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 5: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_194.nii.gz Dice 1.0000. 23.08% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 6: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_257.nii.gz Dice 1.0000. 26.92% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 7: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_309.nii.gz Dice 1.0000. 30.77% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (33, 64, 64)
+🛠 Test Sample 8: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_177.nii.gz Dice 1.0000. 34.62% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (33, 64, 64)
+🛠 Test Sample 9: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_141.nii.gz Dice 1.0000. 38.46% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (36, 64, 64)
+🛠 Test Sample 10: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_204.nii.gz Dice 1.0000. 42.31% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (36, 64, 64)
+🛠 Test Sample 11: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_034.nii.gz Dice 1.0000. 46.15% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (37, 64, 64)
+🛠 Test Sample 12: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_252.nii.gz Dice 1.0000. 50.00% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 13: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_124.nii.gz Dice 1.0000. 53.85% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 14: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_077.nii.gz Dice 1.0000. 57.69% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (32, 64, 64)
+🛠 Test Sample 15: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_299.nii.gz Dice 1.0000. 61.54% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (37, 64, 64)
+🛠 Test Sample 16: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_316.nii.gz Dice 1.0000. 65.38% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 17: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_341.nii.gz Dice 1.0000. 69.23% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 18: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_212.nii.gz Dice 1.0000. 73.08% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (35, 64, 64)
+🛠 Test Sample 19: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_351.nii.gz Dice 1.0000. 76.92% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (38, 64, 64)
+🛠 Test Sample 20: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_288.nii.gz Dice 1.0000. 80.77% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (37, 64, 64)
+🛠 Test Sample 21: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_280.nii.gz Dice 1.0000. 84.62% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 22: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_329.nii.gz Dice 1.0000. 88.46% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 23: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_096.nii.gz Dice 1.0000. 92.31% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (34, 64, 64)
+🛠 Test Sample 24: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_003.nii.gz Dice 1.0000. 96.15% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+[TEST] pred_label type: <class 'numpy.ndarray'>, shape: (36, 64, 64)
+🛠 Test Sample 25: pred_label=<class 'numpy.ndarray'>, x['seg']=<class 'numpy.ndarray'>
+hippocampus_354.nii.gz Dice 1.0000. 100.00% complete
+Jaccard: 1.0 sensitivity : 1.0 specificity :1.0
+
+Testing complete.
+(medai) root@85308d459df9725d6ae1cfd5cbadd4e98c4702dc-5c497d7d8-hhm4x:/home/workspace/src# 
